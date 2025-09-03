@@ -1,0 +1,15 @@
+.testimonial-block {
+    padding: 1rem;
+    border-left: 4px solid #0073aa;
+    background: #f9f9f9;
+}
+
+.testimonial-block p {
+    font-style: italic;
+}
+
+.testimonial-block strong {
+    display: block;
+    margin-top: 0.5rem;
+    color: #0073aa;
+}
