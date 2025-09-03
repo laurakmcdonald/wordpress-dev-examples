@@ -1,15 +1,38 @@
-# Gutenberg Custom Testimonial Block
+# WordPress Development Examples
 
-This plugin demonstrates a simple Gutenberg block using vanilla JavaScript:
+This repository demonstrates my experience with modern WordPress development, including **custom Gutenberg blocks, Advanced Custom Fields (ACF), and Full Site Editing (FSE) themes**.  
+It is designed to highlight my skills in plugin and theme development for prospective employers.
 
-- Editable testimonial text
-- Editable client name
-- Simple CSS styling
-- No npm or Composer required
+---
 
-## Setup
+## 🔹 Contents
 
-1. Copy `gutenberg-custom-block` folder into `wp-content/plugins/`
-2. Activate the plugin in WordPress admin
-3. Open a post or page in the block editor
-4. Insert the "Testimonial" block from the Widgets category
+### 1. [Gutenberg Custom Block](./gutenberg-custom-block/)
+A custom **Testimonial block** built with vanilla JavaScript for the block editor.  
+- Uses `wp.blocks` and `wp.blockEditor` APIs directly  
+- Supports editable text and client name fields  
+- Styled with CSS (no build tools required)  
+- Example of lightweight block development without Composer or npm  
+
+➡️ [View Gutenberg Block Example](./gutenberg-custom-block/)
+
+---
+
+### 2. [FSE Theme Example](./fse-theme-example/)
+A minimal **Full Site Editing block theme** that demonstrates templates, template parts, and reusable block patterns.  
+- Global styles defined in `theme.json` (colors, typography)  
+- Custom single post template (`single.html`)  
+- Template part for header (`header.html`)  
+- Reusable block pattern for a call-to-action (`call-to-action.php`)  
+
+➡️ [View FSE Theme Example](./fse-theme-example/)
+
+---
+
+## 🔹 Skills Demonstrated
+
+- **WordPress (4+ years professional experience)**
+- **Advanced Custom Fields (ACF)**: fields, taxonomies, CPT, REST API  
+- **Gutenberg block development**: React/JS (with ACF integration when needed)  
+- **Full Site Editing**: templates, patterns, th
+

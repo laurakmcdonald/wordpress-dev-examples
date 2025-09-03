@@ -1,42 +1,64 @@
 # WordPress Development Examples
 
-# WordPress Development Examples
+This repository demonstrates my experience with modern WordPress development, including **custom Gutenberg blocks, Advanced Custom Fields (ACF), and Full Site Editing (FSE) themes**.  
+It is designed to highlight my skills in plugin and theme development for prospective employers.
 
-This repository demonstrates professional WordPress development practices, including:
+---
 
-- Custom Post Types (CPT) with Advanced Custom Fields (ACF)
-- Exposing fields through the WordPress REST API
-- Custom Gutenberg blocks using React and ACF
-- Full-Site Editing (FSE) templates and patterns
-- Modern development workflows with Composer, Git, and Docker
+## 🔹 Contents
 
-## Repository Structure
+### 1. [Gutenberg Custom Block](./gutenberg-custom-block/)
+A custom **Testimonial block** built with vanilla JavaScript for the block editor.
 
-### `acf-custom-post-type/`
-Example plugin showing:
-- Portfolio CPT
-- ACF fields (Client Name, Project URL)
-- REST API integration
+**Features:**
+- Uses `wp.blocks` and `wp.blockEditor` APIs directly  
+- Editable testimonial text and client name  
+- Styled with CSS (no build tools required)  
+- Demonstrates lightweight block development without Composer or npm  
 
-### `gutenberg-custom-block/`
-Example of a custom Gutenberg block built with React and ACF:
-- Editable testimonial block
-- Demonstrates enqueueing scripts and styles
+➡️ [View Gutenberg Block Example](./gutenberg-custom-block/)
 
-### `theme-full-site-editing/`
-Minimal block theme for FSE:
-- Custom templates (`single.html`, `archive.html`)
-- Reusable patterns (`hero-banner.php`, `call-to-action.php`)
+---
 
-### `docker-compose.yml` & `composer.json`
-- Docker setup for local development
-- Composer for dependency management
+### 2. [FSE Theme Example](./fse-theme-example/)
+A minimal **Full Site Editing (FSE) block theme** that demonstrates templates, template parts, and reusable block patterns.
 
-## Getting Started
+**Features:**
+- Global styles defined in `theme.json` (colors, typography)  
+- Custom single post template (`single.html`)  
+- Template part for header (`header.html`)  
+- Reusable block pattern for a call-to-action (`call-to-action.php`)  
 
-1. Clone the repository:
+➡️ [View FSE Theme Example](./fse-theme-example/)
+
+---
+
+## 🔹 Skills Demonstrated
+- **WordPress (4+ years professional experience)**  
+- **Advanced Custom Fields (ACF):** fields, taxonomies, CPT, REST API  
+- **Gutenberg block development:** React/JS (with ACF integration when needed)  
+- **Full Site Editing:** templates, patterns, `theme.json`  
+- **JavaScript/React:** including WordPress block editor APIs  
+- **Modern workflows:** Git/GitHub, Composer, WP-CLI, Docker (where applicable)  
+- **Web standards:** accessibility, semantic HTML, responsive CSS  
+
+---
+
+## 🔹 How to Use
+
+Clone this repository and copy the desired folder into your local WordPress install:
+
 ```bash
-git clone git@github.com:YOUR_USERNAME/wordpress-dev-examples.git
-cd wordpress-dev-examples
+# Gutenberg block example
+wp-content/plugins/gutenberg-custom-block/
 
+# FSE theme example
+wp-content/themes/fse-theme-example/
+```
 
+Then activate via the WordPress Admin dashboard.
+
+---
+
+## 🔹 About Me
+I am a web developer with 20+ years of professional **WordPress** experience, skilled in custom plugins, Gutenberg blocks, and modern block themes. I enjoy building tools that make content management easier, performant, and future-proof.
